@@ -9,13 +9,14 @@
 #include <vector>
 #include <iostream>
 #include <string>
-
+#include "task.h"
 using namespace std;
 
 class Day
 {
 private:
     int dayOfWeek;
+    vector<Task> tasks;
 protected:
 
 public:
@@ -25,7 +26,9 @@ public:
     // Deconstructor
     ~Day();
 
-    void add_task(string taskName, string taskDetails, int startTime, int endTime, int);
+    void add_task(string taskName, string taskDetails, Time startTime, Time endTime);
+
+    void print_tasks();
 
 
 };

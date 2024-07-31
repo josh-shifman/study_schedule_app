@@ -24,6 +24,12 @@
     <ClCompile Include="day.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="week.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="time.h">
@@ -33,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="day.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="week.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
